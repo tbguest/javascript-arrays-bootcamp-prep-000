@@ -6,8 +6,8 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  array = array.push(element)
-  return array
+  return array.push(element)
+  return 
 }
 
 console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, 'twix'))
