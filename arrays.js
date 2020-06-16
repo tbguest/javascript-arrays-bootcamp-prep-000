@@ -37,7 +37,7 @@ function removeElementFromEndOfArray(array) {
 }
 
 
-console.log(destructivelyRemoveElementFromBeginningOfArray(chocolateBars))
+console.log(destructivelyAddElementToEndOfArray(chocolateBars, 'twix'))
 // console.log(chocolateBars.push('twix'))
 // console.log(chocolateBars)
 
