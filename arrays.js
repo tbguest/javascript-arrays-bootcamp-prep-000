@@ -22,6 +22,10 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array.shift()
 }
 
+function removeElementFromBeginningOfArray(array) {
+  return array.slice(1)
+}
+
 
 console.log(destructivelyAddElementToEndOfArray(chocolateBars, 'twix'))
 // console.log(chocolateBars.push('twix'))
