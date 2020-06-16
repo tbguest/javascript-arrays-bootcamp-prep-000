@@ -18,6 +18,10 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array.push(element)
 }
 
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  return array.shift()
+}
+
 
 console.log(destructivelyAddElementToEndOfArray(chocolateBars, 'twix'))
 // console.log(chocolateBars.push('twix'))
