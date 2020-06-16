@@ -26,6 +26,11 @@ function removeElementFromBeginningOfArray(array) {
   return array.slice(1)
 }
 
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array.pop()
+  return array
+}
+
 
 console.log(destructivelyAddElementToEndOfArray(chocolateBars, 'twix'))
 // console.log(chocolateBars.push('twix'))
