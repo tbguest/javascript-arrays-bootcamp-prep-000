@@ -19,8 +19,13 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 
 
+console.log(destructivelyAddElementToEndOfArray(chocolateBars, 'twix'))
+
+
+
 function accessElementInArray(array, index) {
   return array[index]
 }
 
-console.log(destructivelyAddElementToEndOfArray(chocolateBars, 'twix'))
+console.log(accessElementInArray(chocolateBars, 2))
+
