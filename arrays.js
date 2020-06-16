@@ -21,6 +21,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 
 console.log(destructivelyAddElementToEndOfArray(chocolateBars, 'twix'))
 console.log(chocolateBars.push('twix'))
+console.log(chocolateBars)
 
 
 
