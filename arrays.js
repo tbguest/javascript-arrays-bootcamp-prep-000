@@ -31,8 +31,12 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   return array
 }
 
+function removeElementFromEndOfArray(array) {
+  array.slice(-1)
+}
 
-console.log(destructivelyAddElementToEndOfArray(chocolateBars, 'twix'))
+
+console.log(removeElementFromEndOfArray(chocolateBars))
 // console.log(chocolateBars.push('twix'))
 // console.log(chocolateBars)
 
