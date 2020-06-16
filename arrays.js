@@ -18,4 +18,4 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array.push(element)
 }
 
-console.log(addElementToEndOfArray(chocolateBars, 'twix'))
+console.log(destructivelyAddElementToEndOfArray(chocolateBars, 'twix'))
