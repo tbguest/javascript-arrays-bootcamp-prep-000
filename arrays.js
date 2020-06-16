@@ -6,8 +6,7 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  return array.push(element)
-  return 
+  return array.unshift(element)
 }
 
 
@@ -15,9 +14,8 @@ function addElementToEndOfArray(array, element) {
   return [...array, element]
 }
 
-function addElementToBeginningOfArray(array, element) {
-  // array = [element, ...array]
-  return [element, ...array]
+function destructivelyAddElementToEndOfArray(array, element) {
+  return array.push(element)
 }
 
 console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, 'twix'))
